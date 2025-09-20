@@ -1,0 +1,34 @@
+// Datatypes
+
+// Premitive data types are ( call by value ) 
+/* String,Number,Boolean,Null,Undefined,Symbol,BigInt*/
+
+const Score=100
+const scoreValue=100.5
+const loginStatus=false
+const temp=null
+let countryName;
+const Id=Symbol('123') // Symbol always used for unique value example- index ID 
+const bigNumber=234354332n
+
+
+console.log(typeof scoreValue)
+console.log(typeof Score)
+
+// Reference , Non Premitive ( Call by reference )
+
+// Array,Object,function
+
+const Heros=["SuperMan","Batman","Ironman"];  // Array
+let myDetails={   // this are objects
+    name:"prabhat",
+    age:24,
+    logintime:false,
+
+}
+
+// function(){}  Function 
+
+const MyFunction=function(){
+console.log("Hello world")
+}
